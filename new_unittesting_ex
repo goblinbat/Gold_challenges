@@ -1,0 +1,6 @@
+with self.assertRaises(ValueError)  # or whatever other error
+    user = Method(invalid input)
+ ex:       user = User(name='Connor')  # it wants a number, so entering a name will raise a value error
+                                        # if an error is raised when you enter an incorrect input type, the test passes 
+
+This tests if entering an incorrect input type will raise an error.
